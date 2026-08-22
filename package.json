@@ -1,0 +1,12 @@
+{
+  "name": "clinica-dental-almendra",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sitio web de clínica dental con agenda de citas en línea y envío de correos vía Resend.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env server.js"
+  }
+}
